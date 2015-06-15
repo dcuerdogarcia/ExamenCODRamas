@@ -19,6 +19,10 @@ public class StatusTwitter {
      */
     public static void main(String[] args) throws TwitterException {
      
+        /** Unos cambios para que sea distinto
+         * 
+         */
+        
         Twitter mitwitter = new TwitterFactory().getInstance();
  
         Query query = new Query("#Cangas");
