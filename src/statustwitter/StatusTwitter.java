@@ -37,6 +37,6 @@ public class StatusTwitter {
         for (Status status : result.getTweets()) {
             System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
         }
-    }
+    //oi que cona
     }
 }
