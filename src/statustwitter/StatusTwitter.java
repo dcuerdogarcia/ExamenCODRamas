@@ -19,7 +19,7 @@ public class StatusTwitter {
      */
     public static void main(String[] args) throws TwitterException {
         //gassasdqweqw
-        
+        //cambia para que funcione el conflicto
         Twitter mitwitter = new TwitterFactory().getInstance();
         Query query = new Query("#Cangas");
         QueryResult result = mitwitter.search(query);
