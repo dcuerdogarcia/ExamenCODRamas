@@ -18,13 +18,9 @@ public class StatusTwitter {
      * @throws twitter4j.TwitterException
      */
     public static void main(String[] args) throws TwitterException {
-     
-        /** Unos cambios para que sea distinto
-         * 
-         */
+        //gassasdqweqw
         
         Twitter mitwitter = new TwitterFactory().getInstance();
- 
         Query query = new Query("#Cangas");
         QueryResult result = mitwitter.search(query);
         for (Status status : result.getTweets()) {
